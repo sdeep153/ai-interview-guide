@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E8EDF2;
+}
+
+.card{
+    background-color: #547A95;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 20px 10px;
+    width: 250px
+}
